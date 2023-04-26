@@ -1,4 +1,4 @@
-# LED-Game Embedded School Project
+# LED-Game Embedded Project
 
 ## Game using K64F and Arduino
 Demo link: https://youtube.com/shorts/7cjX4Qw4ruc?feature=share 
