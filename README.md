@@ -6,7 +6,7 @@ Demo link: https://youtube.com/shorts/7cjX4Qw4ruc?feature=share
 ## Project Description:
 
 This project is a game using LEDs and buttons. The LED’s light up in a sequence so that they “bounce” back and forth along a line of LED’s. At each line of LED’s there is a red colored LED. This is the LED that each player respectively is trying to press their button when it is lit up. If a player successfully presses the button when their red LED is illuminated they will gain a point that is displayed on the LCD screen. The first player to 7 points wins and the game restarts. 
-The technical goals for the project are to use the K64F to light the LEDs in a back and forth motion. The K64F will also read when either of the two buttons are pressed. The K64F will then check if a button is press happened at the correct time and then increment the corresponding players score. The players scores are then send via UART communication from the K64F to the Arduino. The Arduino reads in the data from the SPI communication and then updates the LCD display. The Arduino also continuously plays music. 
+The technical goals for the project are to use the K64F to light the LEDs in a back and forth motion. The K64F will also read when either of the two buttons are pressed. The K64F will then check if a button is press happened at the correct time and then increment the corresponding players score. The players scores are then send via SPI communication from the K64F to the Arduino. The Arduino reads in the data from the SPI communication and then updates the LCD display. The Arduino also continuously plays music. 
 
 ## System Design:  
 ![Flowchart](assets/flowchart.png)
